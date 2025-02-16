@@ -29,7 +29,7 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # Reemplaza con tu API Key
-api_key = "AIzaSyDxtGBJpAKnb668eHJORxLimaCVsqvnBQ4"  
+api_key = ""  
 genai.configure(api_key=api_key)
 
 generation_config = genai.GenerationConfig(
